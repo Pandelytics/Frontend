@@ -4,8 +4,73 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pandelytics</title>
+   <!-- Facebook Open Graph -->
+   <meta property="og:type" content="website">
+   <meta property="og:url" content="https://github.com/pandelytics">
+   <meta property="og:title" content="Pandelytics - COVID19 analytics">
+   <!-- <meta property="og:image" content="Our png logo"> -->
+   <meta property="og:description" content="Our description.">
+   <meta property="og:site_name" content="Pandelytics">
+   <meta property="og:locale" content="en_US">
+   <meta property="og:image:width" content="512">
+   <meta property="og:image:height" content="512">
+   <!-- Twitter Card -->
+   <meta name="twitter:card" content="Pandelytics">
+   <meta name="twitter:site" content="@ibn_abubakre">
+   <meta name="twitter:creator" content="@ibn_abubakre">
+   <meta name="twitter:url" content="https://github.com/pandelytics">
+   <meta name="twitter:title" content="Pandelytics - Analytics">
+   <meta name="twitter:description"
+       content="Our description.">
+   <!-- <meta name="twitter:image" content="Our png logo goes here"> -->
+   <link href="https://cdn.materialdesignicons.com/5.1.45/css/materialdesignicons.min.css" rel="stylesheet">
+   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
-  Hello world
+  <div class="sidebar">
+    <ul class="sidebar-items">
+      <li class="sidebar-items__list sidebar-items__list--selected">
+        <a href="#dashboard">
+          <i class="mdi mdi-view-dashboard icon"></i>
+        </a>
+      </li>
+      <li class="sidebar-items__list">
+        <a href="#map">
+          <i class="mdi mdi-map-outline icon"></i>
+        </a>
+      </li>
+      <li class="sidebar-items__list">
+        <a href="#dunno">
+          <i class="mdi mdi-script-text-outline icon"></i>
+        </a>
+      </li>
+      <li class="sidebar-items__list">
+        <a href="#vertical">
+          <i class="mdi mdi-tune-vertical icon"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="body">
+    <div class="dashboard row mx-0">
+      <div class="col-sm-12 col-md-6 col-lg-9">
+        <div class="stats row mx-0">
+          <div class="col-md-6 col-lg-3 card">Card 1</div>
+          <div class="col-md-6 col-lg-3 card">Card 2</div>
+          <div class="col-md-6 col-lg-3 card">Card 3</div>
+          <div class="col-md-6 col-lg-3 card">Card 4</div>
+        </div>
+        <div class="card affected col-sm-12">Card 5</div>
+        <div class="news row mx-0">
+          <div class="col-sm-12 col-md-6 card">Card 6</div>
+          <div class="col-sm-12 col-md-6 card">Card 7</div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="col-sm-12 card">Card 8</div>
+        <div class="col-sm-12 card">Card 9</div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
