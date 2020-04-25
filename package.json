@@ -1,0 +1,37 @@
+{
+  "name": "pandelytics",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "build-dev": "webpack --config=webpack.config.dev.js",
+    "start": "webpack-dev-server --config=webpack.config.dev.js --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pandelytics/Frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pandelytics/Frontend/issues"
+  },
+  "homepage": "https://github.com/Pandelytics/Frontend#readme",
+  "devDependencies": {
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
