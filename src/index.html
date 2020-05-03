@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pandelytics</title>
-   <!-- Facebook Open Graph -->
-   <meta property="og:type" content="website">
-   <meta property="og:url" content="https://github.com/pandelytics">
-   <meta property="og:title" content="Pandelytics - COVID19 analytics">
-   <!-- <meta property="og:image" content="Our png logo"> -->
-   <meta property="og:description" content="Our description.">
-   <meta property="og:site_name" content="Pandelytics">
-   <meta property="og:locale" content="en_US">
-   <meta property="og:image:width" content="512">
-   <meta property="og:image:height" content="512">
-   <!-- Twitter Card -->
-   <meta name="twitter:card" content="Pandelytics">
-   <meta name="twitter:site" content="@ibn_abubakre">
-   <meta name="twitter:creator" content="@ibn_abubakre">
-   <meta name="twitter:url" content="https://github.com/pandelytics">
-   <meta name="twitter:title" content="Pandelytics - Analytics">
-   <meta name="twitter:description"
-       content="Our description.">
-   <!-- <meta name="twitter:image" content="Our png logo goes here"> -->
-   <link href="https://cdn.materialdesignicons.com/5.1.45/css/materialdesignicons.min.css" rel="stylesheet">
-   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Facebook Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://github.com/pandelytics">
+  <meta property="og:title" content="Pandelytics - COVID19 analytics">
+  <!-- <meta property="og:image" content="Our png logo"> -->
+  <meta property="og:description" content="Our description.">
+  <meta property="og:site_name" content="Pandelytics">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="Pandelytics">
+  <meta name="twitter:site" content="@ibn_abubakre">
+  <meta name="twitter:creator" content="@ibn_abubakre">
+  <meta name="twitter:url" content="https://github.com/pandelytics">
+  <meta name="twitter:title" content="Pandelytics - Analytics">
+  <meta name="twitter:description" content="Our description.">
+  <!-- <meta name="twitter:image" content="Our png logo goes here"> -->
+  <link href="https://cdn.materialdesignicons.com/5.1.45/css/materialdesignicons.min.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <title>Embedded Style Sample</title>
+
 </head>
+
 <body>
   <div class="sidebar">
     <ul class="sidebar-items">
@@ -66,11 +73,98 @@
           <div class="col-sm-12 col-md-6 card">Card 7</div>
         </div>
       </div>
-      <div class="col-sm-12 col-md-6 col-lg-3">
-        <div class="col-sm-12 card">Card 8</div>
-        <div class="col-sm-12 card">Card 9</div>
+      <div class=" p-0 col-sm-12 col-md-6 col-lg-3">
+        <div class=" p-0 col-sm-12 card" style="border-radius: 10px;
+        border: 0px; margin: 5px;">
+          <div class="container">
+            <h2>ratio of recovery</h2>
+            <canvas id="myCanvas" width="300" height="300">
+              Your browser does not support the HTML5 canvas tag.
+            </canvas>
+            <h3>
+              <span>308.5K Affected</span>
+              <span>95.8K Recovered</span>
+            </h3>
+          </div>
+
+        </div>
+        <div class="col-sm-12 card" style="border-radius: 15px;
+        margin-right: 20px; margin-top:15px; padding: 10px;">
+          <div id="header">
+            <div class="upper_text">
+              <h1><span>live reports</span></h1>
+              <div class="arrowsContainer">
+
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                <span class="verticalLine"></span>
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+
+              </div>
+            </div>
+            <br />
+            <ul>
+              <li>
+                <div class="left_icons">
+                  <img src="./assets/images/001-china.png" width="35px" height="30px"> China
+                </div>
+                <div>
+                  <span class="right_numbers">81,054</span>
+                  <i class="fa fa-caret-down" aria-hidden="true"></i>
+                </div>
+              </li><br />
+              <li>
+                <div class="left_icons">
+                  <img src="./assets/images/002-italy.png" width="35px" height="30px"> Italy
+                </div>
+                <div>
+                  <span class="right_numbers">58,678</span>
+                  <i class="fa fa-caret-up" aria-hidden="true"></i>
+                </div>
+              </li><br />
+              <li>
+                <div class="left_icons">
+                  <img src="./assets/images/003-USA.png" width="35px" height="35px"> U.S.A
+                </div>
+                <div>
+                  <span class="right_numbers">26,892</span>
+                  <i class="fa fa-caret-up" aria-hidden="true">
+                  </i>
+                </div>
+              </li><br />
+              <li>
+                <div class="left_icons">
+                  <img src="./assets/images/004-spain.png" width="35px" height="35px"> Spain
+                </div>
+                <div>
+                  <span class="right_numbers">25,496</span>
+                  <i class="fa fa-caret-up" aria-hidden="true"></i>
+                </div>
+              </li><br />
+              <li>
+                <div class="left_icons">
+                  <img src="./assets/images/005-Germany.png" width="35px" height="30px"> Germany
+                </div>
+                <div>
+                  <span class="right_numbers">22,364</span>
+                  <i class="fa fa-caret-up" aria-hidden="true"></i>
+                </div>
+              </li><br />
+              <li>
+                <div class="left_icons">
+                  <img src="./assets/images/006-iran.png" width="35px" height="35px"> Iran
+                </div>
+                <div>
+                  <span class="right_numbers">20,610</span>
+                  <i class="fa fa-caret-up" aria-hidden="true"></i>
+                </div>
+              </li><br />
+
+            </ul>
+
+          </div>
+        </div>
       </div>
     </div>
-  </div>
 </body>
+
 </html>
