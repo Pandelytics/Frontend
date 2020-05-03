@@ -3,4 +3,5 @@
 import './css/main.scss';
 import './scripts/recovery.js';
 import _ from 'lodash';
+import './scripts/plotMap';
 
